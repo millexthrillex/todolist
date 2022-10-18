@@ -4,11 +4,27 @@
 ### Options: Choose existing user, Create new user
 
 print("What would you like to do?")
-existing_user = "1. Choose existing user"
-new_user = "2. Create new user"
-print(existing_user)
+
+print("1. Choose exiting user")
+print("2. Create new user")
+
+### Define Options
+
+def Options():
+    if Options(1):
+        print("Which user?")
+    elif Options(2):
+        print("Enter your username")
+
+
+Options()
+
+existing_user = "1"
+new_user = "2"
+
+##enter a user input here
+
 #insert line break here
-print(new_user)
 
 print("Welcome, (user_name)")
 
