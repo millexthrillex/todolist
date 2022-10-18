@@ -1,0 +1,14 @@
+Requirements for customer:
+
+--------------------------
+
+-TUI/REPL
+-Ability to ADD, DELETE and LIST tasks in the order they were inserted
+-Persist across runs
+-Every user gets their own list
+-Editable storage format
+-All tasks will be entered by the user
+-User friendly, no memorization
+-Prompt recall
+-Report total # of tasks
+**Timestamps with optional display*
